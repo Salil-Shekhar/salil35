@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1128797/pexels-photo-1128797.jpeg?cs=srgb&dl=pexels-mastercowley-1128797.jpg&fm=jpg);
+background-repeat: no-repeat;
+background-size: fill;
+background-size: cover;
+}
+.wrapper{
+    width: 420px;
+    border: 2px solid deeppink;
+    outline: none;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 30px 40px;
+  
+}
+.wrapper h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: deeppink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.wrapper .hi{
+    
+    width: 100%;
+    height: 50px;
+    margin-top: 30px 0;
+    position: relative;
+
+}
+.wrapper .pass{
+   
+    width: 100%;
+    height: 50px;
+    margin-top: 30px 0;
+    position: relative;
+
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.wrapper input[type="email"]{
+    width: 100%;
+    height: 30px;
+}
+.wrapper input[type="password"]{
+    width: 100%;
+    height: 30px;
+}
+button:hover {
+    background-color:deeppink; /* Change background color on hover */
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hi i{
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-90%);
+    
+}
+.pass i{
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-90%);
+  
+}

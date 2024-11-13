@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.line{
+    width: 1px;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    left: 15%;
+}
+.head h1{
+    color: white;
+    position:absolute;
+    left:1.5%;
+}
+
+.studentinfo{
+    position: absolute;
+    top:9%;
+    left: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.3s, color 0.3s; 
+    cursor: pointer; 
+
+}
+.courselist{
+    position: absolute;
+    top:20%;
+    left: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.3s, color 0.3s; 
+    cursor: pointer; 
+
+}
+.faculty{
+    position: absolute;
+    top:31%;
+    left: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.3s, color 0.3s; 
+    cursor: pointer; 
+
+}
+.studymaterial{
+    position: absolute;
+    top:42%;
+    left: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.3s, color 0.3s; 
+    cursor: pointer; 
+
+}
+.study{
+    position: absolute;
+    top:53%;
+    left: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.3s, color 0.3s; 
+    cursor: pointer; 
+
+
+}
+.community{
+    position: absolute;
+    top: 90%;
+    left: 1.5%;
+    color: white;
+}
+.community i{
+    position: relative;
+    left:90px;
+    bottom: 44px;
+    cursor: pointer;
+    font-size: 30px;
+}
+h1{
+    cursor: pointer;
+}
+.studentinfo:hover{
+    background-color: white;
+    color: black;
+}
+.courselist:hover{
+    background-color: white;
+    color: black;
+}
+.faculty:hover{
+    background-color: white;
+    color: black;
+}
+.studymaterial:hover{
+    background-color: white;
+    color: black;
+}
+.study:hover{
+    background-color: white;
+    color: black;
+}
+.welcome{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info{
+    color: white;
+}
+.info h1{
+    position: relative;
+    left: 15%;
+    margin-top: 20px;
+}
+.info img{
+    position: relative;
+    left: 20%;
+}
